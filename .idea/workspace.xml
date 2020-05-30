@@ -44,17 +44,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PlaneTest.canGetCapacity">
-    <configuration name="PassengerTest.passengerHasBags" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AirLine" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PassengerTest" />
-      <option name="METHOD_NAME" value="passengerHasBags" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.PlaneTest.canGetTotalWeight">
     <configuration name="PlaneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AirLine" />
       <option name="PACKAGE_NAME" value="" />
@@ -84,6 +74,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PlaneTest.canGetTotalWeight" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AirLine" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PlaneTest" />
+      <option name="METHOD_NAME" value="canGetTotalWeight" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PlaneTest.planeHasPlaneType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AirLine" />
       <option name="PACKAGE_NAME" value="" />
@@ -96,11 +96,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PlaneTest.canGetTotalWeight" />
         <item itemvalue="JUnit.PlaneTest.canGetCapacity" />
         <item itemvalue="JUnit.PlaneTest.canGetModel" />
         <item itemvalue="JUnit.PlaneTest.planeHasPlaneType" />
         <item itemvalue="JUnit.PlaneTest" />
-        <item itemvalue="JUnit.PassengerTest.passengerHasBags" />
       </list>
     </recent_temporary>
   </component>

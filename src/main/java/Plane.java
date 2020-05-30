@@ -13,4 +13,8 @@ public class Plane {
     public int getCapacityPlane(){
         return this.model.getCapacity();
     }
+
+    public int getTotalWeightPlane(){
+        return this.model.getTotalWeight();
+    }
 }
