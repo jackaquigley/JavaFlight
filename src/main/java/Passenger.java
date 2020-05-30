@@ -12,7 +12,7 @@ public class Passenger {
         return this.name;
     }
 
-    public String getNumberOfBags(){
+    public int getNumberOfBags(){
         return this.numberOfBags;
     }
 

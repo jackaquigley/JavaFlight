@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6f6e50ca-8fb3-4212-8e91-4a8d9e3418f4" name="Default Changelist" comment="" />
+    <list default="true" id="6f6e50ca-8fb3-4212-8e91-4a8d9e3418f4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ModelType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Plane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PlaneTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Passenger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Passenger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PlaneType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/PassengerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/PassengerTest.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,14 +21,21 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="package-info" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ca4jVjvPdPMcVuOlZbkP0RfthD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -33,7 +50,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PassengerTest.passengerHasBags">
+  <component name="RunManager" selected="JUnit.PlaneTest.canGetModel">
     <configuration name="PassengerTest.passengerHasBags" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AirLine" />
       <option name="PACKAGE_NAME" value="" />
@@ -44,11 +61,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PassengerTest.passengerHasName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PlaneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AirLine" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PassengerTest" />
-      <option name="METHOD_NAME" value="passengerHasName" />
+      <option name="MAIN_CLASS_NAME" value="PlaneTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlaneTest.canGetCapacity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AirLine" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PlaneTest" />
+      <option name="METHOD_NAME" value="canGetCapacity" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlaneTest.canGetModel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AirLine" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PlaneTest" />
+      <option name="METHOD_NAME" value="canGetModel" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlaneTest.planeHasPlaneType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AirLine" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PlaneTest" />
+      <option name="METHOD_NAME" value="planeHasPlaneType" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -56,8 +102,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PlaneTest.canGetModel" />
+        <item itemvalue="JUnit.PlaneTest.canGetCapacity" />
+        <item itemvalue="JUnit.PlaneTest.planeHasPlaneType" />
+        <item itemvalue="JUnit.PlaneTest" />
         <item itemvalue="JUnit.PassengerTest.passengerHasBags" />
-        <item itemvalue="JUnit.PassengerTest.passengerHasName" />
       </list>
     </recent_temporary>
   </component>
@@ -73,6 +122,17 @@
       <updated>1590753505525</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
