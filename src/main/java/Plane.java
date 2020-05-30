@@ -9,4 +9,8 @@ public class Plane {
     public ModelType getModel(){
         return this.model;
     }
+
+    public int getCapacityPlane(){
+        return this.model.getCapacity();
+    }
 }

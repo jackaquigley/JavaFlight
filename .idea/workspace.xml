@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f6e50ca-8fb3-4212-8e91-4a8d9e3418f4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ModelType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Plane.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PlaneTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Passenger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Passenger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PlaneType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/PassengerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/PassengerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Plane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Plane.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PlaneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PlaneTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +44,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PlaneTest.canGetModel">
+  <component name="RunManager" selected="JUnit.PlaneTest.canGetCapacity">
     <configuration name="PassengerTest.passengerHasBags" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AirLine" />
       <option name="PACKAGE_NAME" value="" />
@@ -102,8 +96,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PlaneTest.canGetModel" />
         <item itemvalue="JUnit.PlaneTest.canGetCapacity" />
+        <item itemvalue="JUnit.PlaneTest.canGetModel" />
         <item itemvalue="JUnit.PlaneTest.planeHasPlaneType" />
         <item itemvalue="JUnit.PlaneTest" />
         <item itemvalue="JUnit.PassengerTest.passengerHasBags" />
