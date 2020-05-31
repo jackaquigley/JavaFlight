@@ -43,7 +43,8 @@ public class Flight {
     }
 
     public void addPassenger(Passenger passenger){
-        this.passengers.add(passenger);
+        if ( this.passengers.size() < this.model.capacity) {
+        this.passengers.add(passenger);}
     }
 
 }
