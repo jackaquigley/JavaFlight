@@ -9,7 +9,7 @@ public class FlightTest {
 
     @Before
     public void setUp(){
-        flight = new Flight("GLA", "LHR", "23:45");
+        flight = new Flight("GLA", "LHR", "23:45", "FR756");
     }
 
     @Test
@@ -25,5 +25,10 @@ public class FlightTest {
     @Test
     public void flightHasDepartureTime(){
         assertEquals("23:45", flight.getDepartureTime());
+    }
+
+    @Test
+    public void flightHasFlightNumber(){
+        assertEquals("FR756", flight.getFlightNumber());
     }
 }
