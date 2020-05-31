@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class Flight {
 
     private ModelType model;
@@ -5,6 +7,7 @@ public class Flight {
     private String departure;
     private String departureTime;
     private String flightNumber;
+    private ArrayList<Passenger> passengers;
 
     public Flight(String destination, String departure, String departureTime, String flightNumber, ModelType model){
         this.destination = destination;
@@ -12,6 +15,7 @@ public class Flight {
         this.departureTime = departureTime;
         this.flightNumber = flightNumber;
         this.model = model;
+        this.passengers = new ArrayList<Passenger>();
     }
 
     public String getDestination(){
@@ -32,6 +36,10 @@ public class Flight {
 
     public ModelType getModel(){
         return model;
+    }
+
+    public int getNumberOfPassengers(){
+        return this.passengers.size();
     }
 
 }

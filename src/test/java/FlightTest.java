@@ -36,4 +36,9 @@ public class FlightTest {
     public void flightHasModel(){
         assertEquals(ModelType.BOEING747, flight.getModel());
     }
+
+    @Test
+    public void flightHasEmptyPassengers(){
+        assertEquals(0, flight.getNumberOfPassengers());
+    }
 }
