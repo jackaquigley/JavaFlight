@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f6e50ca-8fb3-4212-8e91-4a8d9e3418f4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Flight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Flight.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/FlightTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FlightTest.java" afterDir="false" />
     </list>
@@ -43,7 +44,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FlightTest.flightHasFlightNumber">
+  <component name="RunManager" selected="JUnit.FlightTest.flightHasModel">
     <configuration name="FlightTest.flightHasDepartureTime" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AirLine" />
       <option name="PACKAGE_NAME" value="" />
@@ -84,11 +85,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PlaneTest.canGetTotalWeight" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FlightTest.flightHasModel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AirLine" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PlaneTest" />
-      <option name="METHOD_NAME" value="canGetTotalWeight" />
+      <option name="MAIN_CLASS_NAME" value="FlightTest" />
+      <option name="METHOD_NAME" value="flightHasModel" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -96,11 +97,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FlightTest.flightHasModel" />
         <item itemvalue="JUnit.FlightTest.flightHasFlightNumber" />
         <item itemvalue="JUnit.FlightTest.flightHasDepartureTime" />
         <item itemvalue="JUnit.FlightTest.flightHasDepature" />
         <item itemvalue="JUnit.FlightTest.flightHasDestination" />
-        <item itemvalue="JUnit.PlaneTest.canGetTotalWeight" />
       </list>
     </recent_temporary>
   </component>
