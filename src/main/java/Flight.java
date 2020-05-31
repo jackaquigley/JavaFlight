@@ -42,4 +42,8 @@ public class Flight {
         return this.passengers.size();
     }
 
+    public void addPassenger(Passenger passenger){
+        this.passengers.add(passenger);
+    }
+
 }
