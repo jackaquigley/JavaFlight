@@ -49,4 +49,10 @@ public class FlightTest {
         flight.addPassenger(passenger);
         assertEquals(1, flight.getNumberOfPassengers());
     }
+
+    @Test
+    public void flightCanReturnNumberOfEmptySeats(){
+        flight.addPassenger(passenger);
+        assertEquals(299, flight.getNumberOfEmptySeats());
+    }
 }

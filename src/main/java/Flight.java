@@ -47,4 +47,8 @@ public class Flight {
         this.passengers.add(passenger);}
     }
 
+    public int getNumberOfEmptySeats(){
+        return this.model.capacity - this.passengers.size();
+    }
+
 }
